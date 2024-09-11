@@ -8,7 +8,7 @@ DOMAIN-SUFFIX,api.yakangyl.com
 DOMAIN-SUFFIX,app.bfzyapi.com
 DOMAIN-KEYWORD,cdnlz
 DOMAIN-SUFFIX,cj.lziapi.com
-DOMAIN-SUFFIX,ckflv-cn.sbs
+DOMAIN-KEYWORD,ckflv-c
 DOMAIN-SUFFIX,czzy.top
 DOMAIN-SUFFIX,ddys.pro
 DOMAIN-SUFFIX,dsakf23665.com
@@ -22,8 +22,8 @@ IP-CIDR,43.248.129.14/16
 DOMAIN-SUFFIX,libfabu.com
 DOMAIN-SUFFIX,lunx.maccms.xyz
 DOMAIN-SUFFIX,lzcdn2.com
-DOMAIN-SUFFIX,m.pangdo.com
-DOMAIN-SUFFIX,m3u.ckflv-cn.sbs
+DOMAIN-KEYWORD,pangdo
+DOMAIN-KEYWORD,ckflv-c
 DOMAIN-SUFFIX,ocr.wogg.link
 DOMAIN-SUFFIX,ork.ink
 DOMAIN-SUFFIX,rebozj.pro
