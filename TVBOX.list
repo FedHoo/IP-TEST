@@ -7,7 +7,6 @@ DOMAIN-SUFFIX,api.xinlangapi.com
 DOMAIN-SUFFIX,api.yakangyl.com
 DOMAIN-SUFFIX,app.bfzyapi.com
 DOMAIN-KEYWORD,cdnlz
-DOMAIN-SUFFIX,cj.ffzyapi.com
 DOMAIN-SUFFIX,cj.lziapi.com
 DOMAIN-SUFFIX,ckflv-cn.sbs
 DOMAIN-SUFFIX,czzy.top
@@ -15,10 +14,8 @@ DOMAIN-SUFFIX,ddys.pro
 DOMAIN-SUFFIX,dsakf23665.com
 DOMAIN-SUFFIX,dy.gduan.com
 DOMAIN-SUFFIX,fb.libviofabu.com
-DOMAIN-KEYWORD,ffzy-play
 DOMAIN-SUFFIX,frodo.douban.co
 DOMAIN-SUFFIX,i.ytimg.com
-DOMAIN-SUFFIX,img.ffzy888.com
 DOMAIN-SUFFIX,img.liangzipic.com
 DOMAIN-SUFFIX,img.lzzyimg.com
 IP-CIDR,43.248.129.14/16
@@ -38,7 +35,7 @@ DOMAIN-SUFFIX,survey-smiles.com
 DOMAIN-SUFFIX,tv.youdu.fan
 DOMAIN-SUFFIX,v.aikanbot.com
 DOMAIN-SUFFIX,vidhub1.cc
-DOMAIN-KEYWORD,ffzy-online
+DOMAIN-KEYWORD,ffzy
 DOMAIN-KEYWORD,lz-cdn
 DOMAIN-KEYWORD,vip.lz-cdn5.com
 DOMAIN-SUFFIX,vip1.slbfsl.com
