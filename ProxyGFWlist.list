@@ -3754,7 +3754,7 @@ DOMAIN-SUFFIX,nytco.com
 DOMAIN-SUFFIX,nyti.ms
 DOMAIN-SUFFIX,nytimes.com
 DOMAIN-SUFFIX,nytimes.map.fastly.net
-DOMAIN-SUFFIX,nytimg.com
+DOMAIN-KEYWORD,nytimg.com
 DOMAIN-SUFFIX,nytlog.com
 DOMAIN-SUFFIX,nytstyle.com
 DOMAIN-SUFFIX,nzchinese.com
