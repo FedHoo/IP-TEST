@@ -155,3 +155,13 @@ IP-CIDR,198.183.17.0/24
 IP-CIDR,205.180.175.0/24
 IP-CIDR,63.92.224.0/19
 IP-CIDR,65.199.22.0/23
+
+# AppleNews
+USER-AGENT,AppleNews*
+USER-AGENT,com.apple.news*
+DOMAIN,gspe1-ssl.ls.apple.com
+
+# AppleTV
+DOMAIN,np-edge.itunes.apple.com
+DOMAIN,play-edge.itunes.apple.com
+DOMAIN-SUFFIX,tv.apple.com
