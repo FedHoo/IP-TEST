@@ -1,4 +1,5 @@
 DOMAIN-SUFFIX,qhres.com
+DOMAIN-SUFFIX,mini4k.io
 DOMAIN-SUFFIX,qhimg.com
 DOMAIN-SUFFIX,akadns.net
 DOMAIN-SUFFIX,alibaba.com
@@ -362,7 +363,6 @@ PROCESS-NAME,DownloadService
 PROCESS-NAME,Weiyun
 DOMAIN-KEYWORD,xunlei
 DOMAIN-KEYWORD,yunpan
-DOMAIN-KEYWORD,Thunder
 DOMAIN,dl-a10
 DOMAIN,dl-b10
 DOMAIN,dl-z01
