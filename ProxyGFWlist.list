@@ -55,7 +55,6 @@ DOMAIN-KEYWORD,porn
 DOMAIN-KEYWORD,sci-hub
 DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,telegram
-DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,youtube
 
@@ -229,7 +228,6 @@ DOMAIN-SUFFIX,addyoutube.com
 DOMAIN-SUFFIX,adelaidebbs.com
 DOMAIN-SUFFIX,admob.com
 DOMAIN-SUFFIX,adpl.org.hk
-DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,adsense.com
 DOMAIN-SUFFIX,adult-sex-games.com
 DOMAIN-SUFFIX,adultfriendfinder.com
@@ -556,7 +554,6 @@ DOMAIN-SUFFIX,bell.wiki
 DOMAIN-SUFFIX,bemywife.cc
 DOMAIN-SUFFIX,beric.me
 DOMAIN-SUFFIX,berlinerbericht.de
-DOMAIN-SUFFIX,berlintwitterwall.com
 DOMAIN-SUFFIX,berm.co.nz
 DOMAIN-SUFFIX,bestforchina.org
 DOMAIN-SUFFIX,bestgore.com
@@ -1712,7 +1709,6 @@ DOMAIN-SUFFIX,filesor.com
 DOMAIN-SUFFIX,fillthesquare.org
 DOMAIN-SUFFIX,filmingfortibet.org
 DOMAIN-SUFFIX,filthdump.com
-DOMAIN-SUFFIX,financetwitter.com
 DOMAIN-SUFFIX,finchvpn.com
 DOMAIN-SUFFIX,findmespot.com
 DOMAIN-SUFFIX,findyoutube.com
@@ -4526,7 +4522,6 @@ DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,sijihuisuo.club
 DOMAIN-SUFFIX,sijihuisuo.com
 DOMAIN-SUFFIX,silkbook.com
-DOMAIN-SUFFIX,simbolostwitter.com
 DOMAIN-SUFFIX,simplecd.org
 DOMAIN-SUFFIX,simpleproductivityblog.com
 DOMAIN-SUFFIX,sina.com.hk
@@ -5199,7 +5194,6 @@ DOMAIN-SUFFIX,tunsafe.com
 DOMAIN-SUFFIX,turansam.org
 DOMAIN-SUFFIX,turbobit.net
 DOMAIN-SUFFIX,turbohide.com
-DOMAIN-SUFFIX,turbotwitter.com
 DOMAIN-SUFFIX,turkistantimes.com
 DOMAIN-SUFFIX,turntable.fm
 DOMAIN-SUFFIX,tushycash.com
@@ -5288,16 +5282,6 @@ DOMAIN-SUFFIX,twitonmsn.com
 DOMAIN-SUFFIX,twitpic.com
 DOMAIN-SUFFIX,twitstat.com
 DOMAIN-SUFFIX,twittbot.net
-DOMAIN-SUFFIX,twitter.com
-DOMAIN-SUFFIX,twitter.jp
-DOMAIN-SUFFIX,twitter4j.org
-DOMAIN-SUFFIX,twittercounter.com
-DOMAIN-SUFFIX,twitterfeed.com
-DOMAIN-SUFFIX,twittergadget.com
-DOMAIN-SUFFIX,twitterkr.com
-DOMAIN-SUFFIX,twittermail.com
-DOMAIN-SUFFIX,twitterrific.com
-DOMAIN-SUFFIX,twittertim.es
 DOMAIN-SUFFIX,twitthat.com
 DOMAIN-SUFFIX,twitturk.com
 DOMAIN-SUFFIX,twitturly.com
@@ -6297,13 +6281,7 @@ DOMAIN-SUFFIX,taptap.tw
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,ttvnw.net
 DOMAIN-SUFFIX,jtvnw.net
-DOMAIN-KEYWORD,ttvnw
-
-# Twitter
-DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,twimg.co
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,twimg.org
+DOMAIN-KEYWORD,ttvn
 
 # Telegram
 DOMAIN-SUFFIX,t.me
