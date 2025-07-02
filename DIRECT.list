@@ -1,3 +1,11 @@
+PROCESS-NAME,aria2
+PROCESS-NAME,aria2c.exe
+PROCESS-NAME,aria2c
+DOMAIN-KEYWORD,dl-a10
+DOMAIN-KEYWORD,dl-b10
+DOMAIN-KEYWORD,dl-z01
+DOMAIN-KEYWORD,api-drive
+DOMAIN-KEYWORD,pikpakdrive
 DOMAIN-SUFFIX,openwrt.ai
 DOMAIN-SUFFIX,opensubtitles.com
 DOMAIN-SUFFIX,opensubtitles.org
