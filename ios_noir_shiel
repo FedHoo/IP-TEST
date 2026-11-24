@@ -1,0 +1,100 @@
+#!name=🛡️ iOS-NOIR Privacy Shield (定制隐私护盾)
+#!desc=拦截三大运营商蜂窝免密取号网关(cmpassport/wostore/id6.me)、数字联盟跨App设备DNA指纹(shuzilm.cn)、JSPatch热更新后门、ThreatMetrix行为键盘监控与国内大厂遥测。
+#!system=ios
+
+[Rule]
+# === 1. 三大运营商“静默取号/免密网关/蜂窝探针”阻断 (防绕过Wi-Fi偷传手机号) ===
+# (注：如果某个App必须用本机号码一键登录时卡住，可临时关闭此段)
+DOMAIN-SUFFIX,cmpassport.com,REJECT
+DOMAIN-SUFFIX,id6.me,REJECT
+DOMAIN-SUFFIX,wostore.cn,REJECT
+DOMAIN-SUFFIX,wosms.cn,REJECT
+DOMAIN-SUFFIX,hm.wo.cn,REJECT
+DOMAIN-SUFFIX,mdn.open.wo.cn,REJECT
+DOMAIN-SUFFIX,open.e.189.cn,REJECT
+DOMAIN-SUFFIX,id.189.cn,REJECT
+
+# === 1.5 数字联盟(国家级跨App设备DNA指纹) / JSPatch热更新后门 / 秒针 / 国双 / 腾讯会议内置广告网 ===
+DOMAIN-SUFFIX,shuzilm.cn,REJECT
+DOMAIN-SUFFIX,jspatch.com,REJECT
+DOMAIN-SUFFIX,mob.com,REJECT
+DOMAIN-SUFFIX,miaozhen.com,REJECT
+DOMAIN-SUFFIX,admaster.com,REJECT
+DOMAIN-SUFFIX,gridsumdissector.com,REJECT
+DOMAIN-SUFFIX,cr-nielsen.com,REJECT
+DOMAIN-SUFFIX,imrworldwide.com,REJECT
+DOMAIN-SUFFIX,tanx.com,REJECT
+DOMAIN-SUFFIX,rtbasia.com,REJECT
+DOMAIN-SUFFIX,udbac.com,REJECT
+DOMAIN-SUFFIX,gentags.net,REJECT
+DOMAIN-SUFFIX,tealiumiq.com,REJECT
+DOMAIN-SUFFIX,tiqcdn.com,REJECT
+DOMAIN-SUFFIX,omtrdc.net,REJECT
+DOMAIN-SUFFIX,adobe-campaign.com,REJECT
+DOMAIN-SUFFIX,radiumone.io,REJECT
+
+# === 2. 字节跳动 / 穿山甲 / 巨量引擎 (19款App植入) ===
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
+DOMAIN-SUFFIX,pangolin.snssdk.com,REJECT
+DOMAIN-SUFFIX,is.snssdk.com,REJECT
+DOMAIN-SUFFIX,extlog.snssdk.com,REJECT
+DOMAIN-SUFFIX,log.snssdk.com,REJECT
+DOMAIN-SUFFIX,toblog.ctobsnssdk.com,REJECT
+DOMAIN-SUFFIX,mssdk.bytedance.com,REJECT
+DOMAIN-SUFFIX,tobapplog.ctobsnssdk.com,REJECT
+
+# === 3. 腾讯广点通 / 微信 Matrix 遥测 / 灯塔统计 (34款App植入) ===
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN-SUFFIX,e.qq.com,REJECT
+DOMAIN-SUFFIX,btrace.qq.com,REJECT
+DOMAIN-SUFFIX,oth.eve.mdt.qq.com,REJECT
+DOMAIN-SUFFIX,otheve.beacon.qq.com,REJECT
+DOMAIN-SUFFIX,tpns.tencent.com,REJECT
+DOMAIN-SUFFIX,bugly.qq.com,REJECT
+DOMAIN-SUFFIX,rqd.qq.com,REJECT
+
+# === 4. 阿里百川 / 手淘 AMNet 埋点 / 友盟 Umeng (33款App植入) ===
+DOMAIN-SUFFIX,umeng.com,REJECT
+DOMAIN-SUFFIX,umengcloud.com,REJECT
+DOMAIN-SUFFIX,umsns.com,REJECT
+DOMAIN-SUFFIX,alog.umeng.com,REJECT
+DOMAIN-SUFFIX,ut.taobao.com,REJECT
+DOMAIN-SUFFIX,adash.m.taobao.com,REJECT
+DOMAIN-SUFFIX,adashx.m.taobao.com,REJECT
+DOMAIN-SUFFIX,adashxgc.ut.taobao.com,REJECT
+DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT
+DOMAIN-SUFFIX,ynuf.aliapp.org,REJECT
+DOMAIN-SUFFIX,log.mmstat.com,REJECT
+DOMAIN-SUFFIX,wgo.mmstat.com,REJECT
+
+# === 5. 小红书 / B站 / 美团 / 拼多多 专属遥测与广告探针 ===
+# 小红书
+DOMAIN-SUFFIX,spider-tracker.xiaohongshu.com,REJECT
+DOMAIN-SUFFIX,ark.xiaohongshu.com,REJECT
+DOMAIN-SUFFIX,ads-img-qc.xhscdn.com,REJECT
+# B站
+DOMAIN-SUFFIX,data.bilibili.com,REJECT
+DOMAIN-SUFFIX,cm.bilibili.com,REJECT
+# 美团 & 大众点评
+DOMAIN-SUFFIX,hl.meituan.com,REJECT
+DOMAIN-SUFFIX,analytics.meituan.net,REJECT
+DOMAIN-SUFFIX,lx0.meituan.com,REJECT
+DOMAIN-SUFFIX,dreport.meituan.net,REJECT
+# 拼多多
+DOMAIN-SUFFIX,t-dsp.pinduoduo.com,REJECT
+DOMAIN-SUFFIX,meta.pinduoduo.com,REJECT
+DOMAIN-SUFFIX,th.pinduoduo.com,REJECT
+
+# === 6. 威胁情报 / 行为键盘生物特征追踪 (LexisNexis ThreatMetrix 等) ===
+DOMAIN-SUFFIX,online-metrix.net,REJECT
+DOMAIN-SUFFIX,h.online-metrix.net,REJECT
+
+# === 7. 极光 / 个推 / 常见第三方统计SDK ===
+DOMAIN-SUFFIX,jpush.cn,REJECT
+DOMAIN-SUFFIX,jiguang.cn,REJECT
+DOMAIN-SUFFIX,getui.com,REJECT
+DOMAIN-SUFFIX,igexin.com,REJECT
+DOMAIN-SUFFIX,talkingdata.net,REJECT
+DOMAIN-SUFFIX,sensorsdata.cn,REJECT
+DOMAIN-SUFFIX,growingio.com,REJECT
